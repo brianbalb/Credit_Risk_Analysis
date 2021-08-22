@@ -6,7 +6,7 @@ In this project, we use Python to build and evaluate several machine learning mo
 
 We adopted the following procedure:
 
-!. Oversample the data using the RandomOverSampler and SMOTE algorithms.
+1. Oversample the data using the RandomOverSampler and SMOTE algorithms.
 2. Undersample the data using the ClusterCentroids algorithm.
 3. Use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.
 4. Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
